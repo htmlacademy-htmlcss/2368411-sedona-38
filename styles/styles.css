@@ -533,7 +533,7 @@ body {
 .accommodation-type,
 .hotel-card-price {
     color: #333333;
-    ont-size: 18px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 21px;
@@ -590,5 +590,3 @@ body {
 .hotel-rating-grade {
     background-color: #F2F2F2;
 }
-
-/**/
