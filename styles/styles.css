@@ -288,8 +288,6 @@ body {
     margin: 96px 304px;
 }
 
-
-
 .services-list {
     margin: 0;
     padding: 0;
@@ -298,7 +296,6 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-
 
 .services-blue,
 .services-light {
@@ -410,6 +407,8 @@ body {
 .footer-social-list {
     display: flex;
     padding: 0;
+    gap: 10px;
+    align-items: center;
 }
 
 /*Catalog */
@@ -449,6 +448,10 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .catalog-filter-title {
@@ -678,7 +681,8 @@ body {
 }
 
 .pagination-current,
-.pagination-next, .pagination-next-any {
+.pagination-next,
+.pagination-next-any {
     display: flex;
     box-sizing: border-box;
     width: 60px;
@@ -708,6 +712,6 @@ body {
 }
 
 .pagination-next-any {
-    background-color:transparent;
+    background-color: transparent;
     color: #000;
 }
